@@ -10,8 +10,10 @@ int main()
     if (savings>5000){
         cout<<"Going with Neha"<<endl;
     }
-    else {
+    else if (savings>2000){
         cout<<"Going with Rashmi"<<endl;
     }
-    
+    else {
+	    cout<<"Going with friends"<<endl;
+	  }
 }
