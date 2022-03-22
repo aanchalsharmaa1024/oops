@@ -7,10 +7,17 @@ int main()
     int savings;
     cin>>savings;
     
-    if (savings>5000){
-        cout<<"Going with Neha"<<endl;
+    if (savings>5000)
+    {
+	 if (savings>8000)
+	 {
+            cout<<"Longdrive with Neha";
+         }
+        else{
+            cout<<"shopping with Neha";
+        }
     }
-    else if (savings>2000){
+        else if (savings>2000){
         cout<<"Going with Rashmi"<<endl;
     }
     else {
