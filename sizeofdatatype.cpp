@@ -15,7 +15,15 @@ int main()
     cout<<"size of char "<<sizeof(c)<<endl;
     
     bool d;
-    cout<<"size of bool is "<<sizeof(d)<<endl;
+    cout<<"size of bool "<<sizeof(d)<<endl;
+
+    short int si;
+    long int li;
+    cout<<"size of short int "<<sizeof(si)<<endl;
+    cout<<"size of long int "<<sizeof(li)<<endl;
+
+
+
 
     return 0;
 }
