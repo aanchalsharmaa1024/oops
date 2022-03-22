@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    int a;
-    a = 12;
+    int a;//declaration
+    a = 12;//initialisation
     cout<<"size of int "<<sizeof(a)<<endl;
     
     float b;
